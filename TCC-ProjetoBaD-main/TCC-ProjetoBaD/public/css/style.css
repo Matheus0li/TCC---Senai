@@ -1,0 +1,227 @@
+/* Fonte utilizada na aplicação */
+*{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans';
+}
+form{
+    display:contents;
+}
+
+/* Definição da cor de fundo e altura do Body */
+body,html{
+    height: 100%;
+    background-color: #404258;
+}
+
+/* Definição da Nav Bar */
+.navbar{
+    background-color: #474E68;
+}
+#btn-nav{
+    font-size: small;
+    color: #F7f7f7;
+    border-color: #404258;
+    background-color: #6B728E;
+}
+#btn-nav:hover{
+    box-shadow: 1px 1px 1px 2px #404258;
+    color: #6B728E;
+    background-color: #F7f7f7;
+}
+#nav-input{
+    font-size: small;
+    height: 32px;
+    box-shadow: 1px 1px 1px 2px #404258;
+    background-color: #F7f7f7;
+    border-color: #404258;
+}
+#nav-link{
+    font-size: small;
+    color: #F7f7f7;
+    border-color: #404258;
+    background-color: #6B728E;
+}
+#nav-link:hover{
+    box-shadow: 1px 1px 1px 2px #404258;
+    color: #6B728E;
+    background-color: #F7f7f7;
+}
+#nav-dropdown{
+    background-color: #F7f7f7 ;
+    font-size: smaller;
+    position: absolute;
+    inset: 0px 0px auto auto;
+    margin-right: 12px;
+    margin-top: 5px; 
+    transform: translate(0px, 34px);
+    padding: 3px;
+}
+.dropdown-divider{
+    margin: 3px;
+}
+
+/* Definição da barra lateral */
+#sideBar{
+    scroll-snap-align: center;
+    overflow: auto;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 1%;
+    height:100%;
+    background-color: #50577A;
+    width: 270px;
+}
+#lateralTitle{
+    font-size: 30px;
+    color: #F7f7f7;
+}
+#lateralDivider{
+    margin: 8px;
+    color: #F7f7f7;
+}
+#curso{
+    margin-top: 5px;
+    color: #F7f7f7;
+    background-color: #404258;
+}
+.container-flex{
+    width: 100%;
+    height: calc(100% - 49px);
+}
+#patternRow{
+    margin: 0;
+    width: 100%;
+    height: 100%
+}
+
+/* Local aonde o conteudo é dinamicamente inserido */
+#dynamicContent{
+    padding: 1px;
+    align-items: center;
+    margin-right: auto ;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px ;
+    border: 2px dotted #F7f7f7;
+}
+
+/* Pagina de criação de usuarios */
+#dynamicCol{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#formContainer{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#formCol{
+    padding: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 1%;
+    height: 600px;
+    background-color: #6B728E;
+}
+#formRow{
+    padding: 5px;
+    height: 100%;
+    margin: 0;
+}
+#userIcon{
+    padding-left: 35px;
+    font-size: 100px;
+    color: #F7f7f7;
+}
+#iconPlace{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#separadorVertical{
+    align-self: center;
+    height: 550px;
+    border: 1px solid #F7f7f7;
+}
+#spacerCol{
+    justify-content: center;
+}
+#userInputRow{
+    margin: 0;
+}
+#nameSide{
+    margin-bottom: 47px;
+    justify-content: center;
+    align-items: center;
+}
+#rowSide{
+    justify-content: center;
+    align-items: center;
+}
+#userInputText{
+    border-radius: 10px;
+    border-color: #6B728E;
+    box-shadow: 1px 1px 1px 2px #50577A;
+    margin-bottom: 8px;
+    height: 50px;
+}
+#formBtn{
+    margin-top: 10px;
+}
+#formBtnPosition{
+    align-content: center;
+    justify-content: flex-end;
+}
+
+/* Pagina de Criação de turma/curso */
+
+#classTitle{
+    color: #F7f7f7;
+}
+
+/* Paginas de Login; Criação de Usuario; Recuperação de senha */
+
+
+.form-group{
+    display: contents;
+}
+
+#loginPageBackground{
+    background-image: linear-gradient(to bottom, #404258, #474E68, #50577A, #6B728E);
+}
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 90px;
+    border-radius: 25px;
+    color: white;
+}
+#box-email, #box-senha{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    
+}
+#button-enviar{
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #6B728E;
+    width: 100%;
+    color: white;
+}
+#title{
+    width: 100%;
+}
+#loginAnchor{
+    color: white;
+    text-decoration: none;
+}
